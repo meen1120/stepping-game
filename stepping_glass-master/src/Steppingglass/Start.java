@@ -15,10 +15,10 @@ public class Start {
         Player py3 = new Ducksoo();
         Player py4 = new Ilnam();
         Scanner sc = new Scanner(System.in);
-        System.out.println("===============================================");
-        System.out.println("=============캐릭터를 선택해주세요.============");
-        System.out.println("======a.성기훈(노말) b.조상우(이지) c.장덕수(하드) d.오일남(치트)======");
-        System.out.println("===============================================");
+        System.out.println("====================================================");
+        System.out.println("================캐릭터를 선택해주세요.==================");
+        System.out.println("a.성기훈(노말) b.조상우(이지) c.장덕수(하드) d.오일남(치트)");
+        System.out.println("====================================================");
         System.out.print("캐릭터선택 : ");
         char ch = sc.nextLine().charAt(0);
         switch (ch) {
